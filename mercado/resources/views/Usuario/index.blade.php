@@ -1,6 +1,6 @@
 @extends('plantilla')
 @section('contenido')
-<h2>Usuario</h2>
+<h2>Usuarioa</h2>
 @can('create', App\Models\usuario::class)
 @endcan
 <table class="table table-dark table-striped mt-4">
