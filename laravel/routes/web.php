@@ -12,11 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('apat', function (){
     return view('apat');
 });
@@ -27,4 +22,10 @@ Route::get('amat', function (){
 
 Route::get('nombre', function (){
     return view('nombre');
+});
+
+//actualizacion de las rutas en web.php (1 version)
+
+Route::get('/', function () {
+    return view('welcome');
 });
