@@ -108,7 +108,7 @@
   <footer class="main-footer">
  
     <!-- Default to the left -->
-    <strong>Programacion web con frameworks 2021 
+    <strong>Programacion web con frameworks 
   </footer>
 </div>
 <!-- ./wrapper -->
