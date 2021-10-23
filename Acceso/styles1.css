@@ -1,0 +1,108 @@
+
+:root {
+    /* una propiedad de un pseudoselector se define con --nombre */
+    --blanco: #ffffff;
+    --secundario: #0097a7;
+}
+
+html {
+    font-size: 62.5%; /*necesario para usar la medida rem*/
+    /* apply a natural box layout model to all elements, but allowing components to change */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+ }
+
+ body {
+ 	font-family: 'Krub', sans-serif;
+ 	font-size: 16px; /*necesario para que 1 rem = 10px*/
+ 	background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100% )
+ }
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*para darle borde redondeados*/
+    border-radius: .5rem;
+    
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.w-sm-100{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-sm-100{
+        width: auto;
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear-derecha{
+    justify-content: flex-end
+}
+
+.formulario {
+ 	height: 30rem;
+    background-color: var(--gris);
+    width: min(40rem, 100%); /* toma el valor mas pequeño de los dos parametros y ese lo usa
+    como tamaño para definir el ancho del formulario (ejemplo si la pantalla tiene de anccho
+    una resolucion de 1024px en ese caso tomara el valor de 60 rem(600px) ya que es el valor mas pequeño)*/
+    margin: 16rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--primario);
+
+}
+
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.campo {
+	margin-bottom: 1rem;
+}
+
+.campo label{
+    /*color: var(--blanco);*/
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text {
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+}
