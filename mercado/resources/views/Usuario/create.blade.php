@@ -5,7 +5,7 @@
 
 
 @section('contenido')
-<h3>Agregar Usuario</h3>
+<h3>Agregar usuario</h3>
 
 <form action="/usuario" method="post" enctype="multipart/form-data" >
     @csrf
