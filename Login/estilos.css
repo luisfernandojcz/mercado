@@ -1,0 +1,58 @@
+#login {
+	   background-color: #fffff;
+	   border-radius: 8px;
+	   box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	   -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	   -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	   margin-left: auto;
+	   margin-right: auto;
+	   margin-top: 10%;
+	   max-width: 20em;
+	   padding-bottom: 10px;
+	   padding-top: 10px;
+	}	 
+
+	/* Etiquetas del formulario */ 
+
+	label {
+	   color: red;
+	   display: block;
+	   margin-bottom: 8px;
+	   margin-left: 1.6em;
+	}
+	 
+	/* Campos del formulario */
+	input[type="text"],
+	input[type="password"] {
+	   border: none;
+	   border-radius: 6px;
+	   display: block;
+	   font-size: 1em;
+	   height: 2em;
+	   text-align: center;
+	   width: 90%;
+	   margin-left: auto;
+	   margin-right: auto;
+	}
+	 
+	/* Botón */
+	input[type="submit"] {
+	   background-color: #ff6e40;
+	   border: none;
+	   border-radius: 6px;
+	   color: white;
+	   display: block;
+	   font-size: 1em;
+	   height: 3em;
+	   margin-left: auto;
+	   margin-right: auto;
+	   margin-top: -10px;
+	   text-align: center;
+	   width: 150px;
+	}
+	 
+	input[type="submit"]:hover {
+	   cursor: pointer;
+	   background-color: #b71c1c;
+	   opacity: 0.9;
+	}
